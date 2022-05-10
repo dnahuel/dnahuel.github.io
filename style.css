@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+body{
+    background-color: rgb(205, 253, 237);
+}
+
+main{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(205, 253, 237);
+    
+    
+}
+header{
+    margin: 5px 0 0px 15px;
+    background-color: rgb(205, 253, 237);
+}
+section{
+    margin-top: 30px;
+}
+
+h6{
+    margin-top: 10px;
+}
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 160px;
+    height: 50px;
+    background-color: rgb(42, 97, 180);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+
+}
+button:hover{
+    background-color: rgb(59, 132, 243);
+    font-size: 21px;
+}
+
+#entrada{
+    border: none;
+    width: 80%;
+    height: 60%;
+    resize: none;
+    box-shadow: 0 0 2px 2px  rgba(15, 32, 58, 0.2);
+    border-radius: 15px;
+    background-color: rgb(205, 253, 237);
+    padding: 15px;
+}
+#salida{
+    border: none;
+    width: 80%;
+    height: 60%;
+    resize: none;
+    box-shadow: 0 0 2px 2px  rgba(15, 32, 58, 0.5);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    
+    main{
+  
+        display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+        
+        
+    }
+    section{
+        margin-top: 20px;
+    }
+    
+  }
